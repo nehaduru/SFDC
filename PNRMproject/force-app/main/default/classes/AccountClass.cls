@@ -6,4 +6,10 @@ public class AccountClass
      acc.Name='Nikhil';
      insert acc;
  }
+   public static void method2()
+ {
+     Contact con=new Contact();
+     con.Name='NikhTest Con';   
+     insert con;
+ }
 }
